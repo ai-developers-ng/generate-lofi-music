@@ -1,4 +1,43 @@
-# 🎧 Lofi Music Maker - Quick Start Guide
+# 🎧 Lofi Music Maker
+
+Transform any audio into lofi-style music with vintage warmth, tape wobble, and atmospheric effects.
+
+## Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ai-developers-ng/generate-lofi-music.git
+cd generate-lofi-music
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Or with pip3:
+```bash
+pip3 install -r requirements.txt
+```
+
+**Required packages:**
+- PySide6 (Qt GUI framework)
+- numpy (array processing)
+- scipy (signal processing)
+- librosa (audio processing)
+- soundfile (audio I/O)
+
+### 3. Optional: FFmpeg for MP3 Export
+```bash
+# macOS
+brew install ffmpeg
+
+# Ubuntu/Debian
+sudo apt install ffmpeg
+
+# Windows
+# Download from https://ffmpeg.org/download.html
+```
 
 ## Running the App
 
